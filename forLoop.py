@@ -6,7 +6,12 @@ for weeks in days:
     else:
         print(weeks)
 
-for letter in "junseok":
+for letter in "jun":
     print(letter)
-import math
-print(math.ceil(1.45))
+
+from math import ceil, fsum
+print(ceil(1.45))
+print(fsum([2,1,3]))
+
+from pplus import plus
+print(plus(1,2))
